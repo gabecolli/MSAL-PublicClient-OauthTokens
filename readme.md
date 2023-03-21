@@ -20,4 +20,5 @@ Lastly be sure to specify a port in your acquire_token_interactively method. `ht
 
 ## ConfidentialClientApplication Class 
 this is similiar, however there are some differences. The main being the use of the Client Secret to authenticate your app to AAD and using different flows. 
-This use case works well for Web Application where you can securely store the Client Secret. **DO NOT HARD CODE THE SECRET.** Store it as an ENV variable at a minimum but the use of managed identities and Azure Key Vault is recommended. 
+This use case works well for Web Application where you can securely store the Client Secret. **<span style="color: red;">DO NOT HARD CODE THE SECRET.</span>**
+ Store it as an ENV variable at a minimum but the use of managed identities and Azure Key Vault is recommended. 
