@@ -6,7 +6,7 @@ import test_app_config as app_config
 
 tenantID = 'TENANTID'
 #TODO authority = 'https://login.microsoftonline.com/' + tenantID
-authority = 'https://{b2chostname}a.b2clogin.com/{B2CHOSTNAME}.onmicrosoft.com/{B2c policy name}'
+authority = 'https://{b2chostname}.b2clogin.com/{B2CHOSTNAME}.onmicrosoft.com/{B2c policy name}'
 
 
 
