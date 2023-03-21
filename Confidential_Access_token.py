@@ -16,8 +16,8 @@ def msgraph_auth():
     global accessToken
     global requestHeaders
     global tokenExpiry
-    tenantID = 'ef690698-ed24-452d-9b9a-32f84e98b437'
-    authority = 'https://login.microsoftonline.com/' + tenantID
+    tenantID = 'tenantID'
+    authority = 'https://login.microsoftonline.com/' + tenantID 
     clientID = app_config.CLIENT_ID
     clientSecret = app_config.CLIENT_SECRET
     scope = ['https://graph.microsoft.com/.default']

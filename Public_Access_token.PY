@@ -4,12 +4,14 @@ import test_app_config as app_config
 # Set up authentication parameters
 
 
-tenantID = 'ef690698-ed24-452d-9b9a-32f84e98b437'
+tenantID = 'TENANTID'
 #TODO authority = 'https://login.microsoftonline.com/' + tenantID
-authority = 'https://kvmma.b2clogin.com/kvmma.onmicrosoft.com/B2C_1_susi'
+authority = 'https://{b2chostname}a.b2clogin.com/{B2CHOSTNAME}.onmicrosoft.com/{B2c policy name}'
 
-client_id = "f4e9f9d4-3959-4e2f-a198-e3f952124faa"
-scope = ['https://kvmma.onmicrosoft.com/api-app-id/test.scope']  #this scope was defined in the app registration. Under expose an API
+
+
+client_id = "Client ID"
+scope = ['https://{B2Chostname}.onmicrosoft.com/api-app-id/test.scope']  #this scope was defined in the app registration. Under expose an API
 #the scope is arbitrary and can be anything. It is used to define the permissions of the app registration.
 #if it was a pre built API like graph the scope cannot be arbitrary and must be one of the scopes defined in the API
 
